@@ -1,0 +1,121 @@
+[
+  {
+    "id": "react",
+    "name": "React",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "category": "Frontend",
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.9,
+    "badge": "Popular",
+    "logo": "https://icon.icepanel.io/Technology/svg/React.svg"
+  },
+  {
+    "id": "vue",
+    "name": "Vue.js",
+    "description": "An approachable, performant, and versatile framework for building web user interfaces.",
+    "category": "Frontend",
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.8,
+    "badge": "Versatile",
+    "logo": "https://icon.icepanel.io/Technology/svg/Vue.js.svg"
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte",
+    "description": "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
+    "category": "Frontend",
+    "difficulty": "Intermediate",
+    "rating": 4.8,
+    "badge": "Fast",
+    "logo": "https://icon.icepanel.io/Technology/svg/Svelte.svg"
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "description": "The React framework for full-stack web applications with hybrid static and server rendering.",
+    "category": "Frontend",
+    "difficulty": "Intermediate",
+    "rating": 4.9,
+    "logo": "https://icon.icepanel.io/Technology/svg/Next.js.svg"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "description": "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
+    "category": "Backend",
+    "difficulty": "Intermediate",
+    "rating": 4.8,
+    "badge": "Standard",
+    "logo": "https://icon.icepanel.io/Technology/svg/Node.js.svg"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "description": "A powerful, open-source object-relational database system with proven reliability.",
+    "category": "Database",
+    "difficulty": "Intermediate",
+    "rating": 4.9,
+    "badge": "Top SQL",
+    "logo": "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg"
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "description": "In-memory data structure store used as a high-speed database, cache, and message broker.",
+    "category": "Database",
+    "difficulty": "Intermediate",
+    "rating": 4.8,
+    "badge": "Cache",
+    "logo": "https://icon.icepanel.io/Technology/svg/Redis.svg"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "description": "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
+    "category": "Language",
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.9,
+    "badge": "Ubiquitous",
+    "logo": "https://icon.icepanel.io/Technology/svg/JavaScript.svg"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "description": "A strongly typed programming language that builds on JavaScript for robust tooling.",
+    "category": "Language",
+    "difficulty": "Intermediate",
+    "rating": 4.9,
+    "badge": "Essential",
+    "logo": "https://icon.icepanel.io/Technology/svg/TypeScript.svg"
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "description": "A secure, object-oriented programming language designed for portability and scale.",
+    "category": "Language",
+    "difficulty": "Intermediate",
+    "rating": 4.6,
+    "badge": "Robust",
+    "logo": "https://icon.icepanel.io/Technology/svg/Java.svg"
+  },
+  {
+    "id": "tailwindcss",
+    "name": "Tailwind CSS",
+    "description": "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
+    "category": "Styling",
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.9,
+    "badge": "Modern",
+    "logo": "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "description": "A platform designed to build, share, and run containerized applications reliably.",
+    "category": "DevOps",
+    "difficulty": "Intermediate",
+    "rating": 4.9,
+    "badge": "Containers",
+    "logo": "https://icon.icepanel.io/Technology/svg/Docker.svg"
+  }
+]
