@@ -3,6 +3,7 @@ import { Suspense } from 'react';
 import Banner from './components/Banner'
 import Nav from './components/Nav'
 import SelectionSection from './components/SelectionSection';
+import Footer from './components/Footer';
 
 
 const techDataPromise = async() =>{
@@ -22,6 +23,8 @@ function App() {
     <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
       <SelectionSection techDataPromise={DataPromise} />
     </Suspense>
+    <Footer />
+    
     </>
   )
 }
