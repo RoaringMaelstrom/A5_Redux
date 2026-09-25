@@ -4,6 +4,7 @@ import SelectionGrid from "./Selection/SelectionGrid";
 import SelectedStack from "./Selection/SelectedStack";
 
 import type { Technology } from "../types/Technology";
+import { toast } from "react-toastify";
 
 interface SelectionSectionProps {
   techDataPromise: Promise<Technology[]>;
@@ -17,12 +18,14 @@ function SelectionSection({techDataPromise}: SelectionSectionProps) {
     setSelectedIds((previous) => {
       return [...previous, id];
     });
+    toast.success("Added to stack.");
   };
 
   const handleRemove = (id: string) => {
     setSelectedIds((previous) =>
       previous.filter((selectedId) => selectedId !== id)
     );
+    toast("Removed from stack.");
   };
 
   const selectedTechnologies = technologies.filter(
@@ -30,7 +33,7 @@ function SelectionSection({techDataPromise}: SelectionSectionProps) {
   );
 
   return (
-    <section className="w-full px-16 pb-30">
+    <section className="w-full px-32 pb-30">
       <div className="mb-5">
         <h1 className="text-4xl font-bold py-2">
           Explore the <span className="bg-[linear-gradient(90deg,#FF5722_0%,#D81B7E_50%,#7C3AED_100%)] bg-clip-text text-transparent">Technologies</span>

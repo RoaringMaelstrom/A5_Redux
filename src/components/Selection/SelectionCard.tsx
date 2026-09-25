@@ -44,7 +44,7 @@ function SelectionCard({
         </p>
 
         <div>
-            <div className="mt-2 flex justify-between items-center">
+            <div className="lg:mt-2 flex justify-between items-center">
             <span className="badge bg-base-300 text-[11px] font-medium">
               {technology.category}
             </span>

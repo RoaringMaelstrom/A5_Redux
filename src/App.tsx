@@ -11,14 +11,16 @@ const techDataPromise = async() =>{
     return data;
 }
 
+const DataPromise = techDataPromise();
+
 function App() {
 
   return (
     <>
     <Nav />
     <Banner />
-    <Suspense fallback={<p>Loading...</p>}>
-      <SelectionSection techDataPromise={techDataPromise()} />
+    <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
+      <SelectionSection techDataPromise={DataPromise} />
     </Suspense>
     </>
   )
