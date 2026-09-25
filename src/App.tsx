@@ -4,6 +4,7 @@ import Banner from './components/Banner'
 import Nav from './components/Nav'
 import SelectionSection from './components/SelectionSection';
 import Footer from './components/Footer';
+import Copyright from './components/Copyright';
 
 
 const techDataPromise = async() =>{
@@ -24,7 +25,7 @@ function App() {
       <SelectionSection techDataPromise={DataPromise} />
     </Suspense>
     <Footer />
-    
+    <Copyright />
     </>
   )
 }
