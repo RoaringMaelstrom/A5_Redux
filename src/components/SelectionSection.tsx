@@ -28,6 +28,12 @@ function SelectionSection({techDataPromise}: SelectionSectionProps) {
     toast("Removed from stack.");
   };
 
+  const handleRemoveAll = () => {
+    setSelectedIds([]);
+
+    toast.warning("Stack Cleared !!!");
+  };
+
   const selectedTechnologies = technologies.filter(
     (technology: Technology) => selectedIds.includes(technology.id)
   );
@@ -55,6 +61,7 @@ function SelectionSection({techDataPromise}: SelectionSectionProps) {
         <SelectedStack
           technologies={selectedTechnologies}
           onRemove={handleRemove}
+          allRemove={handleRemoveAll}
         />
 
       </div>

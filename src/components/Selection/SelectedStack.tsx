@@ -4,11 +4,13 @@ import SelectedCard from "./SelectedCard";
 interface SelectedStackProps {
   technologies: Technology[];
   onRemove: (id: string) => void;
+  allRemove: () => void;
 }
 
 function SelectedStack({
   technologies,
   onRemove,
+  allRemove,
 }: SelectedStackProps) {
   return (
     <aside className="rounded-xl border border-gray-400 bg-base-100 p-4">
@@ -38,6 +40,11 @@ function SelectedStack({
               onRemove={onRemove}
             />
           ))}
+          
+          <button className="btn btn-dash btn-error"
+            onClick={allRemove}>
+            Remove All 
+          </button>
         </div>
       )}
 

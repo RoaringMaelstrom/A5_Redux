@@ -2,7 +2,7 @@ import Logo from "../assets/logo-text.png"
 
 const Footer = () => {
     return (
-        <footer className="footer sm:footer-horizontal justify-between bg-base-200 text-[12px] text-gray-500 px-32 py-10">
+        <footer className="footer sm:footer-horizontal justify-between bg-base-200 text-[12px] text-gray-500 px-32 pt-12 pb-9">
         <aside>
             <img src={Logo} alt="Site-Logo-Small"/>
             <p>
